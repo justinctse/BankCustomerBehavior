@@ -1,5 +1,4 @@
 # BigDataAnalyticsProjectGit
-Github for Justin Tse and Cindy Xu's project, Task B7.
 
 Files: 
 
