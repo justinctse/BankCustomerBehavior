@@ -1,47 +1,12 @@
-# BigDataAnalyticsProjectGit
+# Predicting Bank Customer Behavior and Satisfaction
+This was an independent project based on data provided by Santander bank. The dataset consisted of demographic and transactional behavior of customers over a 17-month period. I used this data to predict which products customers would buy in a certain timeframe and also to create a measure for customer satisfaction.
 
-Files: 
+The models used were association rule learning, logistic regression, random forests, gradient tree boosting, and neural networks. The main challenge of this project was coming up with ways to deal with heavily imbalanced classes (<1%). Class rebalancing via over-sampling or under-sampling proved to be an efficent way to improve results.
 
-Visualizations - Folder containing graphs and figures.
+___
 
-BasicVisualization.R - Creates all of the figures
+Folders: 
 
-DataCleaning.R - First stage of preparing the data. 
-
-DataPrep.R - Second stage of preparing the data. Split data set into Lag 2 and Lag 5.
-
-DataPrepToDo.xlsx - Contains data preparation history. Also contains results of all algorithms.
-
-DataPrepMilestone3.R - Data preparation for milestone 3.
-
-LogisticRegression.R - Logistic regression on Lag 5 data.
-
-LogisticRegressionLag2.R - Logistic regression on Lag 2 data.
-
-RandomForestLag2.R - Random forests on 10 percent sample of Lag 2 data.
-
-RandomForestLag2Full.R - Random forests on full Lag 2 data.
-
-RandomForestLag5.R - Random forests on full Lag 5 data.
-
-xGboostlag2.R - XGBoost on 10 percent sample of Lag 2 data.
-
-xgBoostlag2full.R - XGBoost on full Lag 2 data.
-
-Xgboostlag5.R - XGBoost on full Lag 5 data. 
-
-Milestone3 Folder - 
-
-Visualizations - Folder containing milestone 3 visualizations
-
-logRegVarImpData.csv - Raw data for logistic regression variable importance
-
-milestone3_LogisticRegression.R - Logistic regression on milestone 3 data.
-
-milestone3_RandomForests.R - Random Forests on milestone 3 data.
-
-milestone3_xgBoost.R - XGBoost on milestone 3 data.
-
-Milestone3Results.xlsx - Results for milestone 3 data. 
-
-
+- CustomerBehaviorAnalysis - *Contains models and visualizations for analyzing which products customers will purchase in the future.*
+- CustomerSatisfactionAnalysis - *Contains models and visualizations for analyzing customer satisfaction.*
+- DataPreparation - *Contains scripts used to clean the data and to create new features.*
